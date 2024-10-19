@@ -38,24 +38,27 @@
 body{
   width: 100%;
   height: 100vh;
-  background-color: #59B2FF;
+  background-color: black;
+  display: block;
+  align-items: center;
+  justify-content: center;
 
 }
-.aside-container{
-  background-image:url(../assets/img/Background.jpg);
-  background-repeat: no-repeat; 
-  height: 100vh;
-  width: 560px;
-  margin: 20px;
-  
-}
+
 .app{
   display: flex;
  
 }
 main{
-  background-color: var(--shape-background);
+  background-color:var(--input-base);
+  width: 100%;
+  border-radius: 20px;
+  margin:1.25rem ;
 }
 h2{
   color:white ;
+}
+h3{
+  color: var(--pink);
+  font-weight: 800;
 }
