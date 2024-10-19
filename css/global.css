@@ -35,3 +35,27 @@
 
 
 }
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #59B2FF;
+
+}
+.aside-container{
+  background-image:url(../assets/img/Background.jpg);
+  background-repeat: no-repeat; 
+  height: 100vh;
+  width: 560px;
+  margin: 20px;
+  
+}
+.app{
+  display: flex;
+ 
+}
+main{
+  background-color: var(--shape-background);
+}
+h2{
+  color:white ;
+}

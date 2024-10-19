@@ -14,8 +14,93 @@
   </head>
   <body>
     <div class="app">
+      <aside>
+        <div class="aside-container">
+          <header>
+            <img src="assets/icons/Logo.svg" alt="logo" />
+            <div class="festivite">
+              <h3>Festivite</h3>
+              <span>Crie um convite digite para o seu evento</span>
+            </div>
+          </header>
+        </div>
+      </aside>
+
       <main>
-        <div class="container"></div>
+        <div class="container">
+          <h2>Crie seu convite</h2>
+          <form>
+
+            <fieldset class="container-wrapper">
+              <div class="calender">
+                <img src="assets/icons/calendar.svg" alt="calendario" />
+                <span>Sobre o Evento</span>
+              </div>
+
+              <div class="dados-wrapper">
+                <div class="nome-wrapper">
+                  <label for="">Titulo</label><br />
+                  <input type="text" name="name" value="name" />
+                </div>
+
+                <div class="data-wrapper">
+                  <label for="">Inicio</label><br />
+                  <input type="text" name="name" value="name" />
+
+                  <label for="">Fim</label><br />
+                  <input type="text" name="name" value="name" />
+                </div>
+
+                <div class="local-wrapper">
+                  <label for="">Tipo</label><br />
+                  <input type="text" name="name" value="name" />
+
+                  <label for="">local</label><br />
+                  <input type="text" name="name" value="name" />
+                </div>
+
+                <div class="descricao-wrapper">
+                  <label for="">Descricao</label><br />
+                  <textarea name="" id="">Escreva sobre os detalhes do evento</textarea>
+                </div>
+
+              </div>
+            </fieldset>
+
+           
+            <fieldset class="container-wrapper">
+              <div class="calender">
+                <img src="assets/icons/paintbrush-vertical.svg" alt="calendario" />
+                <span>Personalizacao</span>
+              </div>
+            </fieldset>
+
+            <fieldset class="container-wrapper">
+              <div class="calender">
+                <img src="assets/icons/calendar.svg" alt="calendario" />
+                <span>Dados para contato</span>
+              </div>
+            </fieldset>
+
+
+            <footer class="container-wrapper">
+              <div class="footer-wrapper">
+                <div class="termos-wrapper">
+                  <span> Li e concordo com os <strong>Ternos e condicoes</strong> e com a <strong>Politica de Privacidade</strong></span>
+                  <p>Acetio receber atualizacao e progromocoes por e-mail</p>
+                  <span>Aceito receber atualizacao e promocoes por SMS</span>
+                </div>
+              </div>
+              <div class="GerarConvite-wrapper">
+                 <button>
+                   <img src="assets/icons/ticket.svg" alt="imagem de ticket">
+                   Gerar convite
+                 </button>
+              </div>
+            </footer>
+
+          </form>
+        </div>
       </main>
     </div>
   </body>
