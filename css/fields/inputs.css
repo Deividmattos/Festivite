@@ -11,6 +11,7 @@ select {
   background-color: black;
   border: 1px solid var(--input-placeholder);
   height: 4rem;
+  margin-left: 0.25rem;
 }
 label {
   font: var(--text-sm);

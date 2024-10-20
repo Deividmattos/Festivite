@@ -1,11 +1,13 @@
 .Personalizacao-wrapper legend {
   color: var(--text-heading);
   padding-bottom: 1.25rem;
+  margin: 1rem;
 }
 
 .colors {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+
 
 }
 .img-eventos{
@@ -27,5 +29,13 @@
 .img-eventos small{
   display: block;
   text-align: center;
+  color: white;
+}
+.selecionar-wrapper{
+  display: flex;
+  gap: 1rem;
+}
+.up-wrapper{
+  background: url(../../assets/icons/check.svg);
   color: white;
 }

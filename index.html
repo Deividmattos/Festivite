@@ -166,15 +166,16 @@
                 </main>
 
                <div class="selecionar-wrapper">
-                <div>
+
+                <div class="estilo-wrapper">
                   <legend>Estilo</legend>
+                  <input  type="text" name="" id="" ><span>Escuro</span>
                 </div>
 
                 <div>
                   <legend>Foto de capa</legend>
-                  <input type="text">
+                  <input type="file" name="Selecionar" placeholder="Nenhum arquivo selecionado " class="up-wrapper">
                 </div>
-                
                </div>
               </div>
             </div>
@@ -187,27 +188,52 @@
                 <img src="assets/icons/calendar.svg" alt="calendario" />
                 <span>Dados para contato</span>
               </div>
-              
 
+                <div class="input-wrapper">
+                  <label for="title">Titulo</label>
+                  <input type="text" class="title" placeholder=" Nome completo">
+                </div>
+  
+              <div class="flex">
+  
+                <div class="input-wrapper flex-2">
+                  <label for="birth">E-mail</label>
+                  <input type="email" id="birth" name="birth" lang="en"  placeholder="exemplo@email.com" />
+                </div>
+               
+  
+                <div class="input-wrapper flex-1">
+                  <label for="birth">Telefone</label>
+                  <input type="tel" id="birth" name="birth" lang="en" placeholder="(99) 99999-9999"/>
+                </div>
+  
+              </div>
+             
+             </div>
+      
             </fieldset>
 
-
-            <footer class="container-wrapper">
-              <div class="footer-wrapper">
-                <div class="termos-wrapper">
-                  <span> Li e concordo com os <strong>Ternos e condicoes</strong> e com a <strong>Politica de Privacidade</strong></span>
-                  <p>Acetio receber atualizacao e progromocoes por e-mail</p>
-                  <span>Aceito receber atualizacao e promocoes por SMS</span>
-                </div>
+            <div class="terms-wrapper input-wrapper checkbox-wrapper">
+              <div class="checkbox-image"></div>
+              <div>
+                <input type="checkbox" name="terms" id="terms" />
+              <label for="terms">
+                Li e concordo com os <strong>Ternos e condicoes</strong> e com a <strong>Politica de Privacidade</strong>
+              </label><br>
               </div>
-              <div class="GerarConvite-wrapper">
-                 <button>
-                   <img src="assets/icons/ticket.svg" alt="imagem de ticket">
-                   Gerar convite
-                 </button>
+              <div>
+                <input type="checkbox" name="terms" id="terms">
+              <label for="terms">
+                <p>Acetio receber atualizacao e progromocoes por e-mail</p>
+              </label>
               </div>
-            </footer>
-
+            <div>
+              <input type="checkbox" name="terms" id="terms">
+              <label for="terms">
+               Aceito receber atualizacao e promocoes por SMS
+              </label>
+            </div>
+            </div>
           </form>
         </div>
       </main>
