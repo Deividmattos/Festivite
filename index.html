@@ -29,16 +29,21 @@
       <main>
         <div class="container">
           <h2>Crie seu convite</h2>
-          <form>
+          
+          <form class="form-wrapper">
 
             <fieldset class="container-wrapper">
+              <div class="calender">
+                <img src="assets/icons/calendar.svg" alt="calendario" />
+                <span>Sobre o evento</span>
+              </div>
 
               <div class="input-wrapper">
                 <label for="title">Titulo</label>
                 <input type="text" class="title" placeholder=" Nome do evento">
               </div>
 
-             <div class="flex">
+            <div class="flex">
 
               <div class="input-wrapper flex-2">
                 <label for="birth">Inicio</label>
@@ -68,24 +73,122 @@
 
              
             </div>
+
              <div class="textare_wrapper">
                <label for="event-info">Descricao</label>
                <textarea id="message" name="message" placeholder="Escreva sobre os detalhes do evento" cols="30" rows="5"></textarea>
+
             </fieldset>
 
            
             <fieldset class="container-wrapper">
               <div class="calender">
                 <img src="assets/icons/paintbrush-vertical.svg" alt="calendario" />
-                <legend>Personalizacao</legend>
+                <span>Personalizacao</span>
               </div>
-            </fieldset>
+       
+                            
+            <div class="Personalizacao-wrapper">
+                <legend>Cor principal</legend>
+
+              <div class="colors">
+
+              <div class="radio-color">
+                  <img src="assets/icons/ColorSelection_azul.svg" alt="">
+              </div>
+
+               <div class="radio-color">
+                 <img src="assets/icons/ColorSelection-roxo.svg" alt="">
+               </div>
+
+               <div class="radio-color">
+                 <img src="assets/icons/ColorSelection-purple.svg" alt="">
+               </div>
+
+              <div class="radio-color">
+                <img src="assets/icons/ColorSelection-pink.svg "alt="">
+              </div>
+
+              <div class="radio-color">
+                <img src="assets/icons/ColorSelection-salmao.svg" alt="">
+              </div>
+
+              <div class="radio-color">
+                <img src="assets/icons/ColorSelection-red.svg" alt="">
+              </div>
+
+              <div class="radio-color">
+                 <img src="assets/icons/ColorSelection-orange.svg" alt="">
+              </div>
+
+              <div class="radio-color">
+                 <img src="assets/icons/ColorSelection-yellow.svg" alt="">
+              </div>
+
+              <div class="radio-color">
+                 <img src="assets/icons/ColorSelection-yellowLime.svg" alt="">
+              </div>
+
+              <div class="radio-color">
+                 <img src="assets/icons/ColorSelection-grenn.svg" alt="">
+              </div>
+
+              <div class="radio-color">
+                <img src="assets/icons/ColorSelection-Turquesa.svg" alt="">
+              </div>
+          
+  
+              </div>
+             
+              <div class="temas-evento">
+                <legend>Tema do evento</legend>
+
+                <main class="fotos-wrapper">
+                  <div class="img-eventos">
+                    <img src="assets/img/ainversario.jpg" alt="foto aniversario">
+                    <small>Aniversario</small>
+                  </div>
+                  <div class="img-eventos"> <img src="assets/img/infantil.jpg" alt="foto infantil">
+                   <small>Infantil</small>
+                  </div>
+                  <div class="img-eventos"><img src="assets/img/Formatura.jpg" alt="foto formatura">
+                    <small>Formatura</small>
+                  </div>
+                  <div class="img-eventos"><img src="assets/img/Casamento.jpg" alt="foto casamento"><small>Casamento</small></div>
+                  <div class="img-eventos"><img src="assets/img/chadeBebe.jpg" alt="foto cha de bebe"><small>Cha de bebe</small></div>
+                  <div class="img-eventos"><img src="assets/img/ChaPanela.jpg" alt="foto cha de panela"><small>Cha de panela</small></div>
+                  <div class="img-eventos"><img src="assets/img/Carnaval.jpg" alt="foto carnavao"><small>Carnal</small></div>
+                  <div class="img-eventos"><img src="assets/img/Pascoa.jpg" alt="foto pascoa"><small>Pascoa</small></div>
+                  <div class="img-eventos"><img src="assets/img/SaoJoao.jpg" alt="foto festa julina"><small>Sao Joao</small></div>
+                  <div class="img-eventos"><img src="assets/img/Halloween.jpg" alt="foto Halloween"><small>Halloween</small></div>
+                  <div class="img-eventos"><img src="assets/img/Natal.jpg" alt="foto natal"><small>Natal</small></div>
+                  <div class="img-eventos"><img src="assets/img/Outro.jpg" alt="foto outro"><small>Outro</small></div> 
+                </main>
+
+               <div class="selecionar-wrapper">
+                <div>
+                  <legend>Estilo</legend>
+                </div>
+
+                <div>
+                  <legend>Foto de capa</legend>
+                  <input type="text">
+                </div>
+                
+               </div>
+              </div>
+            </div>
+
+
+          </fieldset>
 
             <fieldset class="container-wrapper">
               <div class="calender">
                 <img src="assets/icons/calendar.svg" alt="calendario" />
                 <span>Dados para contato</span>
               </div>
+              
+
             </fieldset>
 
 
