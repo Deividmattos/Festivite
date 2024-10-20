@@ -32,46 +32,52 @@
           <form>
 
             <fieldset class="container-wrapper">
-              <div class="calender">
-                <img src="assets/icons/calendar.svg" alt="calendario" />
-                <span>Sobre o Evento</span>
+
+              <div class="input-wrapper">
+                <label for="title">Titulo</label>
+                <input type="text" class="title" placeholder=" Nome do evento">
               </div>
 
-              <div class="dados-wrapper">
-                <div class="nome-wrapper">
-                  <label for="">Titulo</label><br />
-                  <input type="text" name="name" value="name" />
-                </div>
+             <div class="flex">
 
-                <div class="data-wrapper">
-                  <label for="">Inicio</label><br />
-                  <input type="text" name="name" value="name" />
-
-                  <label for="">Fim</label><br />
-                  <input type="text" name="name" value="name" />
-                </div>
-
-                <div class="local-wrapper">
-                  <label for="">Tipo</label><br />
-                  <input type="text" name="name" value="name" />
-
-                  <label for="">local</label><br />
-                  <input type="text" name="name" value="name" />
-                </div>
-
-                <div class="descricao-wrapper">
-                  <label for="">Descricao</label><br />
-                  <textarea name="" id="">Escreva sobre os detalhes do evento</textarea>
-                </div>
-
+              <div class="input-wrapper flex-2">
+                <label for="birth">Inicio</label>
+                <input type="date" id="birth" name="birth" lang="en"  />
               </div>
+             
+
+              <div class="input-wrapper flex-1">
+                <label for="birth">Fim</label>
+                <input type="date" id="birth" name="birth" lang="en" />
+              </div>
+
+            </div>
+
+            <div class="flex">
+
+              <div class="input-wrapper flex-2">
+                <label for="birth">Tipo</label>
+                <input type="tipo" id="tipo" name="tipo" lang="en" />
+              </div>
+             
+
+              <div class="input-wrapper flex-1">
+                <label for="local">Local</label>
+                <input type="text" id="local" name="local" lang="en"  placeholder="Link ou endereco"/>
+              </div>
+
+             
+            </div>
+             <div class="textare_wrapper">
+               <label for="event-info">Descricao</label>
+               <textarea id="message" name="message" placeholder="Escreva sobre os detalhes do evento" cols="30" rows="5"></textarea>
             </fieldset>
 
            
             <fieldset class="container-wrapper">
               <div class="calender">
                 <img src="assets/icons/paintbrush-vertical.svg" alt="calendario" />
-                <span>Personalizacao</span>
+                <legend>Personalizacao</legend>
               </div>
             </fieldset>
 
